@@ -1,2 +1,11 @@
 /* [BOOTSTRAP] SCSS */
 @import '~bootstrap/scss/bootstrap';
+
+/* [GLOBAL] THEME(Inverted) */
+@media (prefers-color-scheme) {
+  html {color-scheme: dark;}
+  body {
+    color: white;
+    background: black;
+  }
+}
