@@ -1,5 +1,11 @@
 /* [BOOTSTRAP] SCSS */
 @import '~bootstrap/scss/bootstrap';
+@import './stylesheet/navbar';
+@import './stylesheet/footer';
+
+.logo {
+  filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+}
 
 /* [GLOBAL] THEME(Inverted) */
 @media (prefers-color-scheme) {
